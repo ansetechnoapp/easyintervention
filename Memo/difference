@@ -1,0 +1,1 @@
+Différence entre la redirection : header('Location:../view/Form_sign_in.php'); et echo "<script>location.href='../view/Form_sign_in.php';</script>";

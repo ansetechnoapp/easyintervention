@@ -1,0 +1,6 @@
+.css-select{
+    @extend %style-input-select;
+}
+.css-select:focus {
+    outline:none;
+}

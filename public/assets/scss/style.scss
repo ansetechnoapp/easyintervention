@@ -1,0 +1,100 @@
+html {
+     box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+     box-sizing: inherit;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     scroll-behavior: smooth;
+}
+body {
+     overflow-x: hidden;
+     max-width: 100%;
+}
+@import "./variables";
+@import "./mixins";
+@import "./placeholders";
+@import "./_grid";
+@import "./balise-header";
+@import "./balise-section";
+@import "./balise-footer";
+@import "./balise-table";
+@import "./balise-form";
+@import "./balise-input";
+@import "./balise-select";
+@import "./input-search";
+@import "./modal";
+@import "./cercle";
+@import "./btn";
+@import "./icon";
+li {
+     margin: 3% 0% 3% 0%;
+}
+
+
+// li:nth-child(1){}
+
+.show_hide_content {
+     margin-top: 10px;
+     width: 70px;
+     height: auto;
+     padding: 5px;
+     border: solid 1px #000000;
+     background-color: #ffffff;
+     overflow: auto;
+}
+
+.hidden {
+     display: none;
+   }
+   
+   .pagination-number.active {
+     color: #fff;
+     background: #9B3A42;
+   }
+   .pagination-number.active:hover {  
+     background: #9B3A42;
+   }
+   
+   .pagination-number,
+   .pagination-button{
+     border: none;
+     margin: 0.25rem 0.25rem;
+     cursor: pointer;
+     height: 1.5rem;
+     width: 2rem;
+     border-radius: 5px;
+   }
+   
+   .pagination-number:hover,
+   .pagination-button:not(.disabled):hover {
+     background: #808080;
+     
+   }
+   
+   .links .links-line{
+     display: inline-block;
+   }
+
+
+   .actionStatus{
+    border: 1px solid $color-font-table;
+    width: 100px;
+    float: right;
+    
+
+    .line{
+      margin: 1%;
+      padding: 1%;
+      text-align: center;
+      background-color: $color-font-table;
+      color: #fff;
+    }
+ 
+   }
+
+   

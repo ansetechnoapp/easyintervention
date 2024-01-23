@@ -1,0 +1,9 @@
+//général
+.footer {
+     @extend %footer;
+}
+// dashboard
+.footer-dash {
+     @extend %footer;
+     margin-top: 1%;
+}

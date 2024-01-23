@@ -1,0 +1,52 @@
+// Pour le contenue général
+.section {
+     @extend %center-el;
+     .form {
+          @extend %flex-center-two-axe;
+          flex-direction: column;
+          .item {
+               margin: 2% 0% 6% 0%;
+          }
+     }
+}
+
+// Pour le contenue du  dashboard
+.section-dash {
+     margin-right: 5%;
+     .header-dash {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          height: auto;
+          margin: 2% 0% 0% 0%;
+          .Titre{
+               display: flex;
+               flex-direction: column;
+               width: 50%;
+          }
+          /* .form-search{
+               display: flex;
+               width: 325px;
+               justify-content: space-between;
+               align-items: center;
+               
+          } */
+          .form-search{
+               margin-right: 125px;        
+          }
+     }
+     .sect-1 {
+          margin-left: 3%;
+           table{
+               .table-flex{
+                    display: flex;
+                    justify-content: space-between;
+               }
+          }
+          .container{
+               
+               max-width: 920px;
+          }
+     }
+}
+

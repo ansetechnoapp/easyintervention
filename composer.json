@@ -1,0 +1,64 @@
+{
+    "name": "pc/easycrud",
+    "autoload": {
+        "psr-4": {
+            
+            "App\\Models\\FormRegister\\": "App/Models/FormRegister/",
+            "App\\Models\\FormSignIn\\": "App/Models/FormSignIn/",
+            "App\\Models\\passwordForgot\\": "App/Models/passwordForgot/",
+            "App\\Models\\passwordUpdate\\": "App/Models/passwordUpdate/",
+
+            "App\\Models\\Dashboard\\EditTaskForm\\": "App/Models/Dashboard/EditTaskForm/",
+            "App\\Models\\Dashboard\\FormTaskMaterial\\": "App/Models/Dashboard/FormTaskMaterial/",
+            "App\\Models\\Dashboard\\FormTaskNameCustom\\": "App/Models/Dashboard/FormTaskNameCustom/",
+            "App\\Models\\Dashboard\\TaskForm\\": "App/Models/Dashboard/TaskForm/",
+            "App\\Models\\Dashboard\\UserUpdateAccount\\": "App/Models/Dashboard/UserUpdateAccount/",
+            "App\\Models\\Dashboard\\ViewTask\\": "App/Models/Dashboard/ViewTask/",
+            "App\\Models\\Dashboard\\ViewTaskAutre\\": "App/Models/Dashboard/ViewTaskAutre/",
+            "App\\Models\\Dashboard\\ViewTaskMaterial\\": "App/Models/Dashboard/ViewTaskMaterial/",
+            "App\\Models\\Dashboard\\ViewTaskNameCustom\\": "App/Models/Dashboard/ViewTaskNameCustom/",
+
+            "App\\Models\\Dashboard\\Administrator\\AddUser\\": "App/Models/Dashboard/Administrator/AddUser/",
+            "App\\Models\\Dashboard\\Administrator\\ListUser\\": "App/Models/Dashboard/Administrator/ListUser/",
+            "App\\Models\\Dashboard\\Administrator\\ViewTaskAdmin\\": "App/Models/Dashboard/Administrator/ViewTaskAdmin/",
+            "App\\Models\\Dashboard\\Administrator\\ViewTaskUserAction\\": "App/Models/Dashboard/Administrator/ViewTaskUserAction/",
+
+
+            "App\\Controller\\FormRegister\\": "App/Controller/FormRegister/",
+            "App\\Controller\\FormSignIn\\": "App/Controller/FormSignIn/",
+            "App\\Controller\\passwordForgot\\": "App/Controller/passwordForgot/",
+            "App\\Controller\\passwordUpdate\\": "App/Controller/passwordUpdate/",
+            "App\\Controller\\signOut\\": "App/Controller/signOut/",
+            
+            "App\\Controller\\Dashboard\\EditTaskForm\\": "App/Controller/Dashboard/EditTaskForm/",
+            "App\\Controller\\Dashboard\\FormTaskMaterial\\": "App/Controller/Dashboard/FormTaskMaterial/",
+            "App\\Controller\\Dashboard\\FormTaskNameCustom\\": "App/Controller/Dashboard/FormTaskNameCustom/",
+            "App\\Controller\\Dashboard\\TaskForm\\": "App/Controller/Dashboard/TaskForm/",
+            "App\\Controller\\Dashboard\\UserUpdateAccount\\": "App/Controller/Dashboard/UserUpdateAccount/",
+            "App\\Controller\\Dashboard\\ViewTask\\": "App/Controller/Dashboard/ViewTask/",
+            "App\\Controller\\Dashboard\\ViewTaskAutre\\": "App/Controller/Dashboard/ViewTaskAutre/",
+            "App\\Controller\\Dashboard\\ViewTaskMaterial\\": "App/Controller/Dashboard/ViewTaskMaterial/",
+            "App\\Controller\\Dashboard\\ViewTaskNameCustom\\": "App/Controller/Dashboard/ViewTaskNameCustom/",
+
+            "App\\Controller\\Dashboard\\Administrator\\AddUser\\": "App/Controller/Dashboard/Administrator/AddUser/",
+            "App\\Controller\\Dashboard\\Administrator\\ListUser\\": "App/Controller/Dashboard/Administrator/ListUser/",
+            "App\\Controller\\Dashboard\\Administrator\\ViewTaskAdmin\\": "App/Controller/Dashboard/Administrator/ViewTaskAdmin/",
+            "App\\Controller\\Dashboard\\Administrator\\ViewTaskUserAction\\": "App/Controller/Dashboard/Administrator/ViewTaskUserAction/",
+            
+            "App\\Config_connect\\": "App/Config_connect/",
+
+            "includes\\": "includes/",
+            "router\\": "router/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "require": {
+        "symfony/http-foundation": "^6.1",
+        "symfony/http-kernel": "^6.1",
+        "symfony/routing": "^6.1"
+    }
+}

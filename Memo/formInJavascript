@@ -1,0 +1,7 @@
+Pour débuter un formulaire en javascript 
+
+1-on a besoin de séléctionner les class et les id 
+du formulaire dont on aura besoin dans le javascript .
+2-on a besoin de la fonction addEventListener()
+3-on a besoin d'une fonction qui s'occupe de la vérifcation 
+de chaque input avant la soumission du formulaire.

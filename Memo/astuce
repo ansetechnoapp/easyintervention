@@ -1,0 +1,8 @@
+1-Avoir un dossier test au cour de développement pour tester des bouts de code qui retourne des erreurs,
+j'ai remarqué que avec les fonctions il est parfois difficile de vite trouver et résourdre certaine erreurs
+donc c'est tres pratique d'isolé le bout de code et de faire différent test.
+2-vérifier l'existence des variables(plus précisement des données) gerer par la méthode fecth
+
+
+
+essayer d'afficher les variables php  dans des balises H1

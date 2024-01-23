@@ -1,0 +1,19 @@
+Remarque: quand tu creer une classe dans un dossier ,le dossier et la classe doivent avoir le même nom.
+
+Il est important d'apprendre a se servit des namespaces avant de passer a 
+l'autoloading pour mieux comprendre l'utilité de l'autoloading. Ce qu'il faut sur l'autoloading :
+
+1 - il y a la manière de faire ça avec une fonction en php où il y a composer
+
+
+2- Installer composer  ensuite configurer ça(voir tuto sur youtube)
+
+
+3 - il permet de charger tout tes class automatique sans avoir à inclure le chemin des classes chaque fois, 
+il suffit seulement de une seule fois le ficher autoload qui se situe dans vendor à chaque fois que tu as besoin d'une classe.
+
+
+4 - dans ce projet le dossier class est le namespaces App (Configurer dans le ficher composer.json) qui permet de charger les classes.
+
+
+5 - Voir tuto sur youtube pour mieux comprendre et observer comment ça a été fait dans ce projet.

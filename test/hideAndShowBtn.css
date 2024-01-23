@@ -1,0 +1,21 @@
+
+#show_hide_content {
+
+    display:none;
+	margin-top: 10px;
+	width: 70px;
+	height: auto;
+	padding: 5px;
+	border: solid 1px #000000;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+
+.btn-action{
+    display: flex;
+    flex-direction: column;
+}
+.btn-link-action{
+    text-decoration: none;
+    margin: 10% 0% 2% 0%;
+}
