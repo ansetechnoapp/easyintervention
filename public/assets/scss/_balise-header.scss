@@ -1,0 +1,108 @@
+// Pour l'entete
+.profilDisplay{
+     margin: 2px 50px 5px -125px;
+     border: 1px solid rgb(204, 204, 204);
+     width: 140px;
+     i{
+          padding: 10px 5px 5px 10px;
+     }
+
+     a{
+          padding: 5px 5px 5px 5px;
+          color: black;
+     }
+}
+.profilDisplayHover:hover{
+     background-color: $color-principal;  
+     a{
+          color:white;
+     }
+     i{
+          color:white;
+     }
+}
+
+.header {
+     @extend %flex-center-two-axe;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-content: stretch;
+}
+
+.flex-logo {
+     order: 0;
+     flex: 1 1 50%;
+     align-self: auto;
+     margin: 1% 0%;
+     padding: 0% 4%;
+     a {
+          img {
+               padding: 2px;
+               width: 100px;
+          }
+     }
+}
+
+.flex-Navbar {
+     order: 0;
+     flex: 1 0 50%;
+     align-self: auto;
+     .list-nav {
+          display: flex;
+          justify-content: flex-end;
+          li {
+               padding: 0% 5% 0% 2%;
+          }
+     }
+}
+
+// Pour la nav du dashboard
+
+.Nav-dash {
+     margin-left: 5%;
+     margin-right: 5%;
+     nav {
+          @include flex-direction-center(column);
+          justify-content: center;
+          align-content: stretch;
+          height: 100%;
+          .flex-logo {
+             order: 0;
+             flex: 1 1 auto;
+             align-self: auto;
+             margin: 10% 20% 15px 0%;
+         
+             a {
+                  img {
+                       margin: 0% 0% 0% 30%;
+                  }
+             }
+         }
+         .flex-menuNavbar {
+             order: 0;
+             flex: 3 1 auto;
+             align-self: auto;
+             margin: 0% 0% 100% 0%;
+             .list-nav {
+                  li {
+                       .btn {
+                            @include btn(15px,30px);
+                            font-size: 10px;
+                            width: 200px;
+                            text-align: center;
+                       }
+                  }
+                  li:first-child {
+                    border-color: $color-border-table;
+                    border-style: solid none none none;
+                    border-width: 2px;
+                    padding-top: 20px;
+               }
+             }
+             
+         }
+          
+     }
+ }
+ 
+

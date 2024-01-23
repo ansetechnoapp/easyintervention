@@ -1,0 +1,23 @@
+@mixin flex-direction-center ($direction){
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@mixin style-input-select-btn-textarea ($color,$border-color) {
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial;
+    border: 1px solid $border-color;
+    color: $color;
+    margin: 0px 5px 8px 5px;   
+}
+@mixin btn ($x,$y){
+    @include style-input-select-btn-textarea ($color-white,#0b0e07);
+    background-color: $color-principal;
+    display: inline-block;
+    cursor: pointer;
+    text-shadow: 0px 1px 0px $color-principal;
+    padding: $x $y $x $y;
+}

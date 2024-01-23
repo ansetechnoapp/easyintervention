@@ -1,0 +1,10 @@
+// Chemin(.section-dash .sect-1 .container ) pour les éléments html 
+.form-style{
+    @include flex-direction-center(column);
+    justify-content: initial;
+}
+.form-second-style{
+    @include flex-direction-center(row);
+    justify-content: initial;
+}
+// Chemin(.section-dash .sect-1 .container ) pour les éléments html 

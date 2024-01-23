@@ -1,0 +1,7 @@
+Prenons l'exemple d'une fonction A etant la premiere  et une autre B étant la second.
+
+Si je veux utilisé au faire appel a la fonction A dans la fonction B
+
+je vais utilisé $this->B() qui veut dire affecte tous les paramétres
+
+de la fonctions do A a la nouvel fonction B

@@ -1,0 +1,44 @@
+table.blueTable {
+    margin-top: 50px;
+    width: 100%;
+    text-align: left;
+}
+table.blueTable td,
+table.blueTable th {
+    border: 1px solid #aaaaaa;
+    padding: 5px 20px 5px 0px;
+}
+table.blueTable thead {
+    border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+    color: $color-font-table;
+    font-size: 15px;
+    text-align: left;
+    border-style: none none solid none;
+    border-bottom: 1px solid $color-border-table;
+}
+table.blueTable tbody tr td {
+    font-size: 12px;
+    border-style: none none solid none;
+    border-bottom: 1px solid $color-border-table;
+}
+table.blueTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+    font-size: 14px;
+    border-style: none none none none;
+}
+table.blueTable tfoot .links {
+    text-align: right;
+}
+.td-textearea{
+    max-width: 100px; 
+    word-break: break-all; 
+    min-width: 40px;
+}
+

@@ -1,0 +1,57 @@
+.btn {
+     @include btn (15px,30px);
+}
+.btn:hover {
+     background-color: $color-btn-hover;
+}
+.btn:active {
+     position: relative;
+     top: 1px;
+}
+
+.btn-connexion {
+     @include btn (11px,0px);
+     width: 450px;
+}
+.btn-connexion:hover {
+     background-color: $color-btn-hover;
+}
+.btn-connexion:active {
+     position: relative;
+     top: 1px;
+}
+
+.btn-register{
+     @include btn (11px,0px);
+     width: 450px;
+}
+.btn-register:hover {
+     background-color: $color-btn-hover;
+}
+.btn-register:active {
+     position: relative;
+     top: 1px;
+}
+// For the table three-dot action that displays edit or delete
+.btn-action {
+     display: flex;
+     flex-direction: column;
+     border: 1px solid $color-input-border;
+     margin: 10px 5px 0px 0px;
+     padding: 0px 0px 0px 0px;
+}
+.btn-link-Edit{
+     text-align: center;
+}
+.btn-link-action {
+     border: none;
+     background-color: $color-white;
+     margin: 0px 0px 0px 0px;
+     font-size: 12px;
+     padding: 5px 3px 5px 3px;
+}
+.btn-link-action:hover,
+.btn-link-Edit:hover {
+     background-color: $color-btn-hover;
+     color: $color-white;
+}

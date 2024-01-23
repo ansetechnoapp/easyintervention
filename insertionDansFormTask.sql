@@ -1,0 +1,2 @@
+INSERT INTO form_task ( Nom, Equipment, NameCustomer, Subjects, startDate, EndDate, hourStart, hourEnd, Detail, Observation, Verdicts,role, user_id_num) 
+VALUES ('ridar','pc','rena','azertyhh','2022-08-20','2022-08-20','23:31:52','23:31:52','ridarridar','ridarridarridar','ridarridarridar','user','37')

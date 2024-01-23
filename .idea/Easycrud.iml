@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Config_connect" isTestSource="false" packagePrefix="App\Config_connect\" />
+      <sourceFolder url="file://$MODULE_DIR$/includes" isTestSource="false" packagePrefix="includes\" />
+      <sourceFolder url="file://$MODULE_DIR$/router" isTestSource="false" packagePrefix="router\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/Administrator/AddUser" isTestSource="false" packagePrefix="App\Controller\Dashboard\Administrator\AddUser\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/Administrator/ListUser" isTestSource="false" packagePrefix="App\Controller\Dashboard\Administrator\ListUser\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/Administrator/ViewTaskAdmin" isTestSource="false" packagePrefix="App\Controller\Dashboard\Administrator\ViewTaskAdmin\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/Administrator/ViewTaskUserAction" isTestSource="false" packagePrefix="App\Controller\Dashboard\Administrator\ViewTaskUserAction\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/EditTaskForm" isTestSource="false" packagePrefix="App\Controller\Dashboard\EditTaskForm\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/FormTaskMaterial" isTestSource="false" packagePrefix="App\Controller\Dashboard\FormTaskMaterial\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/FormTaskNameCustom" isTestSource="false" packagePrefix="App\Controller\Dashboard\FormTaskNameCustom\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/TaskForm" isTestSource="false" packagePrefix="App\Controller\Dashboard\TaskForm\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/UserUpdateAccount" isTestSource="false" packagePrefix="App\Controller\Dashboard\UserUpdateAccount\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/ViewTask" isTestSource="false" packagePrefix="App\Controller\Dashboard\ViewTask\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/ViewTaskAutre" isTestSource="false" packagePrefix="App\Controller\Dashboard\ViewTaskAutre\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/ViewTaskMaterial" isTestSource="false" packagePrefix="App\Controller\Dashboard\ViewTaskMaterial\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/Dashboard/ViewTaskNameCustom" isTestSource="false" packagePrefix="App\Controller\Dashboard\ViewTaskNameCustom\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/FormRegister" isTestSource="false" packagePrefix="App\Controller\FormRegister\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/FormSignIn" isTestSource="false" packagePrefix="App\Controller\FormSignIn\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/passwordForgot" isTestSource="false" packagePrefix="App\Controller\passwordForgot\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/passwordUpdate" isTestSource="false" packagePrefix="App\Controller\passwordUpdate\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Controller/signOut" isTestSource="false" packagePrefix="App\Controller\signOut\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/Administrator/AddUser" isTestSource="false" packagePrefix="App\Models\Dashboard\Administrator\AddUser\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/Administrator/ListUser" isTestSource="false" packagePrefix="App\Models\Dashboard\Administrator\ListUser\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/Administrator/ViewTaskAdmin" isTestSource="false" packagePrefix="App\Models\Dashboard\Administrator\ViewTaskAdmin\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/Administrator/ViewTaskUserAction" isTestSource="false" packagePrefix="App\Models\Dashboard\Administrator\ViewTaskUserAction\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/EditTaskForm" isTestSource="false" packagePrefix="App\Models\Dashboard\EditTaskForm\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/FormTaskMaterial" isTestSource="false" packagePrefix="App\Models\Dashboard\FormTaskMaterial\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/FormTaskNameCustom" isTestSource="false" packagePrefix="App\Models\Dashboard\FormTaskNameCustom\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/TaskForm" isTestSource="false" packagePrefix="App\Models\Dashboard\TaskForm\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/UserUpdateAccount" isTestSource="false" packagePrefix="App\Models\Dashboard\UserUpdateAccount\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/ViewTask" isTestSource="false" packagePrefix="App\Models\Dashboard\ViewTask\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/ViewTaskAutre" isTestSource="false" packagePrefix="App\Models\Dashboard\ViewTaskAutre\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/ViewTaskMaterial" isTestSource="false" packagePrefix="App\Models\Dashboard\ViewTaskMaterial\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/Dashboard/ViewTaskNameCustom" isTestSource="false" packagePrefix="App\Models\Dashboard\ViewTaskNameCustom\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/FormRegister" isTestSource="false" packagePrefix="App\Models\FormRegister\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/FormSignIn" isTestSource="false" packagePrefix="App\Models\FormSignIn\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/passwordForgot" isTestSource="false" packagePrefix="App\Models\passwordForgot\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models/passwordUpdate" isTestSource="false" packagePrefix="App\Models\passwordUpdate\" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/justinrainbow/json-schema" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/seld/phar-utils" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/seld/jsonlint" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/event-dispatcher" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
